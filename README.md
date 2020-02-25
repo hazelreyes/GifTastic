@@ -1,5 +1,7 @@
 # GifTastic
 
+https://hazelreyes.github.io/GifTastic/
+
 `GifTastic` is a JavaScript & jQuery web application with Giphy API. The user can choose a topic or make one in order to show 10 gifs at a time along with their ratings.
 
 ## Purpose
