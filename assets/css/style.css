@@ -1,51 +1,62 @@
 body {
-    background-image: url(../images/sweets.jpg);
+  background-image: url(../images/food.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-div, form, input {
-    margin: 10px;
+div,
+form,
+input {
+  margin: 10px;
 }
 
-.button, #add-gif {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: rgb(63, 132, 221);
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-    margin: 10px;
+.button,
+#add-gif {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(70, 230, 21);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(204, 204, 204);
+  margin: 10px;
 }
 
-.button:active, #add-gif:active {
-    background-color: rgb(63, 132, 221);
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-    margin: 10px;
+.button:active,
+#add-gif:active {
+  background-color: rgb(58, 242, 248);
+  box-shadow: 0 5px rgb(204, 204, 204);
+  transform: translateY(4px);
+  margin: 10px;
 }
 
 #gifs-view {
-    display: flex;
-    flex-wrap: wrap;
-}
-          
-#gif-input {
-    width: 100%;
-    margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-label, p {
-    background-color: rgb(250, 126, 194);
-    border-radius: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    font-weight: bolder;
-    font-style: italic;
-    padding: 5px 8px 5px;
-    margin: 5px;
+#gif-input {
+  width: 100%;
+  margin: 5px;
+}
+
+label,
+p {
+  background-color: rgb(252, 103, 227);
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  font-style: italic;
+  padding: 5px 8px 5px;
+  margin: 5px;
+  color: yellow;
 }
