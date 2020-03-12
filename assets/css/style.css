@@ -60,3 +60,21 @@ p {
   margin: 5px;
   color: yellow;
 }
+
+@media screen and (max-width: 992px) {
+  .button, #add-gif {
+    font-size: 15.5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button, #add-gif {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button, #add-gif {
+    font-size: 14.5px;
+  }
+}
